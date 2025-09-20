@@ -29,7 +29,7 @@ function mostrarDatosClima (data) {
     ciudadTitulo.textContent = ciudadNombre
 
     const temperaturaInfo = document.createElement ('p')
-    temperaturaInfo.textContent = temperatura
+    temperaturaInfo.textContent = `La temperatura es de ${Math.floor(temperatura-difKelvin)}°C`
 
     const descripcionInfo = document.createElement ('p')
     descripcionInfo.textContent = descripcion
